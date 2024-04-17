@@ -1,4 +1,129 @@
 .colum-2{
     width: 70%;
-    background-color: white;
+    background-color: rgb(230, 226, 226);
+}
+.topicos{
+    border-bottom: solid 2px black;
+    width: 80%;
+}
+.topicos h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    letter-spacing: 3px;
+}
+.experiencia{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.cargo{
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+.empresa{
+    margin-top: 15px;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.experiencia ul{
+    margin: 0;
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+.experiencia li{
+    margin-top: 10px;
+    font-size: 13px;
+    display: flex;
+    align-items: center; 
+}
+.experiencia li img {
+    margin-right: 10px;
+    width: 20px;
+}
+.checks{
+    margin-left: 25px;
+    display: flex;
+}
+.checks ul{
+    margin: 0;
+    padding-inline-start: 0px;
+    list-style-type: none;
+    margin-right: 30px;
+}
+.checks li{
+    margin-top: 10px;
+    font-size: 13px;
+    display: flex;
+    align-items: center; 
+}
+.checks li img {
+    margin-right: 10px;
+    width: 20px;
+}
+.cursos{
+    margin-left: 25px;
+}
+.cursos ul{
+    margin: 0;
+    padding-inline-start: 0px;
+    list-style-type: none;
+    margin-right: 30px;
+}
+.cursos li{
+    margin-top: 10px;
+    font-size: 17px;
+    display: flex;
+    align-items: center; 
+    font-style: italic;
+}
+.cursos li img {
+    margin-right: 10px;
+    width: 20px;
+}
+.cursos a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    font-weight: 400;
+}
+
+.cursos a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; 
+    left: 0;
+    width: 0%;
+    height: 1px; 
+    background-color: rgb(107, 106, 106); 
+    transition: width 0.8s ease; 
+}
+
+.cursos a:hover::after {
+    width: 100%; 
+}
+
+.lerMais{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-bottom: solid 1px black;
+}
+.lerMais button{
+    margin-bottom: -13px;
+    background-color: rgb(230, 226, 226);
+    border-radius: 20px;
+    padding-inline: 20px;
+    padding-block: 5px;
+    cursor: pointer;
+    border: solid 1px black;
+}
+.lerMais button:hover{
+    background-color: rgb(207, 203, 203);
 }

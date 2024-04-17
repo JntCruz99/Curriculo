@@ -5,6 +5,7 @@
     color: white;
     display: flex;
     padding: 55px;
+    border-right: solid 2px #7FD958;
 }
 
 .img-profile {
@@ -20,12 +21,14 @@
     background-size: cover; 
     background-position: 50% 50%;
     width: 100%;
-    height: 350px;
+    aspect-ratio: 1/1;
     border-radius: 50%;
+    flex-wrap: wrap;
     cursor: pointer;
 }
+
 .img:hover{
-    animation: zoom-infinite 5s; 
+    animation: zoom-infinite 10s; 
 }
 
 @keyframes zoom-infinite {
@@ -61,12 +64,41 @@
     letter-spacing: 1px;
 }
 .educacao h1{
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 300;
     color: #7FD958;
     letter-spacing: 3px;
 }
+.educacao{
+    margin-top: 20px;
+}
 .educacao-form{
     display: flex;
     flex-direction: column;
+}
+.contato{
+    margin-top: 20px;
+}
+.contato h1{
+    font-size: 23px;
+    font-weight: 300;
+    color: #7FD958;
+    letter-spacing: 3px;
+}
+.contato ul{
+    margin: 0;
+    padding-inline-start: 0px;
+    font-weight: 100;
+    list-style-type: none;
+    letter-spacing: 1px;
+}
+.contato li{
+    margin-top: 10px;
+    font-size: 13px;
+    display: flex;
+    align-items: center; 
+}
+.contato li img {
+    margin-right: 10px;
+    width: 20px;
 }
