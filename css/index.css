@@ -6,3 +6,16 @@ body{
     font-style: normal;
     background-color: rgb(230, 226, 226);
 }
+
+@media screen and (max-width: 767px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .colum-1{
+        width: 100%;
+    }
+    .colum-2{
+        width: 100%;
+    }
+}

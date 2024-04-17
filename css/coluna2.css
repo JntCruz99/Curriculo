@@ -127,3 +127,13 @@
 .lerMais button:hover{
     background-color: rgb(207, 203, 203);
 }
+
+@media screen and (max-width: 767px) {
+   
+    .colum-2{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
