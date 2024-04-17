@@ -141,6 +141,11 @@
     .topicos{
         width: 90%;
     }
+    .cursos{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
     
     
 }
